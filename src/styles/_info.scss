@@ -1,0 +1,35 @@
+.info{
+    border: 3px solid  rgb(32, 194, 32) ;
+    width: 50%;
+    margin-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    &__title{
+        text-align: center;
+        background-color: black;
+        color: rgb(32, 194, 32);
+        width: 100%;
+        padding-bottom:30px;
+        padding-top: 30px;
+    }
+    .qA{
+        margin-top: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .divButton{
+        margin-top: 20px;
+    }
+    &__button{
+       border-radius: 4px;
+       cursor: pointer;
+       background-color: black;
+       color: rgb(32, 194, 32);
+       width: 20vw;
+    }
+}

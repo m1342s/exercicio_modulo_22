@@ -1,0 +1,10 @@
+.food{
+    display: flex;
+    @media (min-width:320px) and (max-width:640px){
+        margin-top: 12px;
+        margin-bottom: 12px;
+       &__image{
+        width: 30%;
+       }
+    }
+}

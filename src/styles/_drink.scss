@@ -1,0 +1,8 @@
+.drinks{
+    display: flex;
+    @media (min-width:320px) and (max-width:640px){
+        &__image{
+         width: 30%;
+        }
+     }
+}

@@ -1,0 +1,12 @@
+@use 'hero';
+@use 'countdown';
+@use 'info';
+@use 'food';
+@use 'drink';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,sans-serif;
+}
